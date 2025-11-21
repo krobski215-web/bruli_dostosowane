@@ -2,7 +2,7 @@
 
 ## About
 
-This addon provides a MQTT topic for controlling an eCoal furnaces (only version 3.5). There are no official integrations for this specific version of the eCoal furnace, so I decided to create one. It uses the API exposed by the controller to control the furnace. There was no official spec for the API, so the communication is based on reverse engineering the API calls made by the eCoal app.
+This addon provides a MQTT topic for controlling eCoal furnaces (only version 3.5). There are no official integrations for this specific version of the eCoal furnace, so I decided to create one. It uses the API exposed by the controller to control the furnace. There was no official spec for the API, so the communication is based on reverse engineering the API calls made by the eCoal app.
 
 ## Integration
 
