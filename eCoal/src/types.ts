@@ -34,6 +34,17 @@ export interface ECoalResponse {
   };
 }
 
+export interface ECoalInfoResponse {
+  cmd: {
+    status: string;
+    hardware: {
+      type: string;
+      hardwareversion: string;
+      softwareversion: string;
+    };
+  };
+}
+
 export interface ECoalData {
   cmd: {
     status: string;

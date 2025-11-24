@@ -1,4 +1,4 @@
-import type { Config, ECoalResponse } from "../types";
+import type { Config, ECoalInfoResponse, ECoalResponse } from "../types";
 import { legacyFetch } from "../utils/legacyFetch";
 import { logger } from "../utils/logger";
 
@@ -7,6 +7,23 @@ export class ECoalService {
 
   constructor(config: Config) {
     this.config = config;
+
+    legacyFetch(`http://${this.config.ecoal_host}/info.cgi`, {
+      user: this.config.ecoal_username,
+      pass: this.config.ecoal_password,
+    }).then(async (data) => {
+      const hwData = (await data.json()) as ECoalInfoResponse;
+
+      if (hwData.cmd.hardware.hardwareversion !== "3.5") {
+        throw new Error(
+          `Unsupported hardware version: ${hwData.cmd.hardware.hardwareversion}. Supported version: 3.5`,
+        );
+      }
+
+      logger.info(
+        `Connected to eCoal v${hwData.cmd.hardware.hardwareversion} (${hwData.cmd.hardware.softwareversion})`,
+      );
+    });
   }
 
   async fetchData(): Promise<ECoalResponse | null> {
