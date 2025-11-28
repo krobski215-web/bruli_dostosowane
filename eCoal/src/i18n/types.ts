@@ -9,6 +9,9 @@ export type Translations = {
   auto_mode: string;
   pump_1: string;
   pump_2: string;
+  pump_3: string;
+  pump_4: string;
+  pump_cwu: string;
   boiler_setpoint: string;
   dhw_setpoint: string;
   feeder_temp: string;
