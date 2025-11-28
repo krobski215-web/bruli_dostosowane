@@ -37,13 +37,6 @@ export const sensorMappings: SensorMapping[] = [
     type: "temp",
   },
   {
-    name: "blower_speed",
-    mqttUniqueId: "sensor_blower_speed",
-    tid: "act_dm_speed",
-    unit: "%",
-    type: "percentage",
-  },
-  {
     name: "auto_mode",
     mqttUniqueId: "sensor_auto_mode",
     tid: "tryb_auto_state",
