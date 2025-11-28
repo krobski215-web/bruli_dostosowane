@@ -9,13 +9,6 @@ export const sensorMappings: SensorMapping[] = [
     type: "temp",
   },
   {
-    name: "fuel_level",
-    mqttUniqueId: "sensor_fuel_level",
-    tid: "fuel_level",
-    unit: "%",
-    type: "percentage",
-  },
-  {
     name: "boiler_temp",
     mqttUniqueId: "sensor_boiler_temp",
     tid: "tkot_value",
