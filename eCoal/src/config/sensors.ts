@@ -56,12 +56,6 @@ export const sensorMappings: SensorMapping[] = [
     type: "state",
   },
   {
-    name: "pump_2",
-    mqttUniqueId: "sensor_pump_2",
-    tid: "out_pomp2",
-    type: "state",
-  },
-  {
     name: "boiler_setpoint",
     mqttUniqueId: "sensor_boiler_setpoint",
     tid: "kot_tzad",
