@@ -49,6 +49,8 @@ export class ECoalService {
           "kot_tzad",
           "out_pomp1",
           "out_cwutzad",
+          "ob3_out_pump",
+          "ob4_out_pump",
           "out_pomp2",
           "tzew_act",
           "kot_tact",
