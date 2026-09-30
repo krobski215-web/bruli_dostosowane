@@ -187,6 +187,13 @@ export const sensorMappings: SensorMapping[] = [
     unit: "%",
     type: "percentage",
   },
+  {
+    name: "circuit_4_room_setpoint",
+    mqttUniqueId: "sensor_circuit4_room_setpoint",
+    tid: "ob4_pok_tzad",
+    unit: "°C",
+    type: "temp",
+  },
     {
     name: "circuit_4_room_temp",
     mqttUniqueId: "sensor_circuit4_room_temp",
@@ -194,7 +201,6 @@ export const sensorMappings: SensorMapping[] = [
     unit: "°C",
     type: "temp",
   },
-
   {
     name: "circuit_4_valve_setpoint",
     mqttUniqueId: "sensor_circuit4_valve_setpoint",
