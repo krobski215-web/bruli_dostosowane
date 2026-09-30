@@ -20,7 +20,7 @@ export default {
   t2_temp: "Temp. pom. 2",
   external_actual: "Temp. faktyczna zewnętrzna",
   boiler_actual: "Temp. faktyczna kotła",
-  dhw_actual: "Temp. faktyczna CWU",
+  dhw_actual: "Temp. zadana CWU",
   circuit_1_room_temp: "Temp. piwnica",
   circuit_1_valve_setpoint: "Temp. zadana za zaw piwnica",
   circuit_1_valve_position: "Pozycja zaworu piwnica",
