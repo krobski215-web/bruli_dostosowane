@@ -31,4 +31,5 @@ export default {
   circuit_4_room_temp: "Temp. za zaworem piętro",
   circuit_4_valve_setpoint: "Temp. zadana za zaw piętro",
   circuit_4_valve_position: "Pozycja zaworu piętro",
+  circuit_4_room_setpoint: "Temp. oczekiwana na piętrze",
 } satisfies Translations;
