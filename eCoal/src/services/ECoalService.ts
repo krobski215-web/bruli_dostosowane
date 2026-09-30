@@ -52,6 +52,7 @@ export class ECoalService {
           "tzew_act",
           "kot_tact",
           "cwu_tact",
+          "fuel_level",
           "ob1_pok_tact",
           "ob1_zaw4d_tzad",
           "ob1_zaw4d_pos",
