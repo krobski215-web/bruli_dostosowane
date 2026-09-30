@@ -42,6 +42,7 @@ export class ECoalService {
           "ob3_out_pump",
           "ob4_out_pump",
           "out_cwu",
+          "out_miesz",
           "kot_tzad",
           "out_cwutzad",
           "tpod_value",
