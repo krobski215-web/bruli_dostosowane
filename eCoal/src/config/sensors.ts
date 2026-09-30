@@ -129,6 +129,13 @@ export const sensorMappings: SensorMapping[] = [
     type: "temp",
   },
   {
+    name: "paliwo",
+    mqttUniqueId: "sensor_paliwo",
+    tid: "fuel_level",
+    unit: "%",
+    type: "percentage",
+  },
+  {
     name: "circuit_1_room_temp",
     mqttUniqueId: "sensor_circuit1_room_temp",
     tid: "ob1_pok_tact",
