@@ -268,6 +268,16 @@ export const temperatureControlMappings: TemperatureControlMapping[] = [
     minValue: 10,
     maxValue: 70,
   },
+    {
+    name: "circuit_4_room_setpoint",
+    mqttUniqueId: "control_circuit_4_room_setpoint",
+    setId: "ob4_pok_tzad",
+    readoutId: "ob4_pok_tact",
+    currentSetValueId: "ob4_pok_tzad",
+    unit: "°C",
+    minValue: 15,
+    maxValue: 25,
+  },
 
 
 ];
