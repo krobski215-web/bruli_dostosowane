@@ -11,6 +11,7 @@ export default {
   pump_3: "Pompa parter",
   pump_4: "Pompa piętro",
   pump_cwu: "Pompa CWU",
+  pump_miesz: "Pompa cyrkulacyjna",
   boiler_setpoint: "Temp. zad. kotła",
   dhw_setpoint: "Temp. zad. CWU",
   feeder_temp: "Temp. górna bufora",
