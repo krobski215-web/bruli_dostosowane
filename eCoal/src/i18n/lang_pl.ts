@@ -14,7 +14,7 @@ export default {
   pump_miesz: "Pompa cyrkulacyjna",
   boiler_setpoint: "Temp. zad. kotła",
   feeder_temp: "Temp. górna bufora",
-  internal_temp: "Temp. wewnętrzna",
+  internal_temp: "Temp. wewnętrzna na piętrze",
   t1_temp: "Temp. za zaworem piwnica",
   t2_temp: "Temp. pom. 2",
   external_actual: "Temp. faktyczna zewnętrzna",
