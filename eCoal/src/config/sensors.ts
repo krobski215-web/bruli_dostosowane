@@ -80,6 +80,13 @@ export const sensorMappings: SensorMapping[] = [
     type: "temp",
   },
     {
+    name: "boiler_cal_setpoint",
+    mqttUniqueId: "sensor_boiler_cal_setpoint",
+    tid: "tkot_cal",
+    unit: "°C",
+    type: "temp",
+  },
+    {
     name: "dhw_setpoint",
     mqttUniqueId: "sensor_dhw_setpoint",
     tid: "cwu_tzad",
@@ -225,6 +232,16 @@ export const sensorMappings: SensorMapping[] = [
 ];
 
 export const temperatureControlMappings: TemperatureControlMapping[] = [
+  {
+    name: "boiler_cal_setpoint",
+    mqttUniqueId: "control_boiler_cal_setpoint",
+    setId: "tkot_cal",
+    readoutId: "tkot_cal",
+    currentSetValueId: "tkot_cal",
+    unit: "°C",
+    minValue: -30,
+    maxValue: 30,
+  },
   {
     name: "boiler_setpoint",
     mqttUniqueId: "control_boiler_setpoint",
