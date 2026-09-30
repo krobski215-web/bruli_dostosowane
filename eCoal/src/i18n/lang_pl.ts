@@ -13,6 +13,7 @@ export default {
   pump_cwu: "Pompa CWU",
   pump_miesz: "Pompa cyrkulacyjna",
   boiler_setpoint: "Temp. zad. kotła",
+  boiler_cal_setpoint: "Kalibracja czuj. kotła",
   dhw_setpoint: "Temp. zad. CWU",
   feeder_temp: "Temp. górna bufora",
   internal_temp: "Temp. wewnętrzna na piętrze",
