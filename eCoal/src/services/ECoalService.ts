@@ -44,6 +44,7 @@ export class ECoalService {
           "out_cwu",
           "out_miesz",
           "kot_tzad",
+          "tkot_cal"
           "tpod_value",
           "twew_value",
           "t1_value",
