@@ -136,13 +136,7 @@ export const sensorMappings: SensorMapping[] = [
     unit: "°C",
     type: "temp",
   },
-  {
-    name: "circuit_1_room_setpoint",
-    mqttUniqueId: "sensor_circuit1_room_setpoint",
-    tid: "ob1_pok_tzad",
-    unit: "°C",
-    type: "temp",
-  },
+
   {
     name: "circuit_1_valve_setpoint",
     mqttUniqueId: "sensor_circuit1_valve_setpoint",
@@ -164,27 +158,15 @@ export const sensorMappings: SensorMapping[] = [
     unit: "°C",
     type: "temp",
   },
-  {
-    name: "circuit_2_room_setpoint",
-    mqttUniqueId: "sensor_circuit2_room_setpoint",
-    tid: "ob2_pok_tzad",
-    unit: "°C",
-    type: "temp",
-  },
+
   {
     name: "circuit_3_room_temp",
     mqttUniqueId: "sensor_circuit3_room_temp",
-    tid: "ob3_pok_tact",
+    tid: "ob3_t1",
     unit: "°C",
     type: "temp",
   },
-  {
-    name: "circuit_3_room_setpoint",
-    mqttUniqueId: "sensor_circuit3_room_setpoint",
-    tid: "ob3_pok_tzad",
-    unit: "°C",
-    type: "temp",
-  },
+
   {
     name: "circuit_3_valve_setpoint",
     mqttUniqueId: "sensor_circuit3_valve_setpoint",
@@ -202,17 +184,11 @@ export const sensorMappings: SensorMapping[] = [
     {
     name: "circuit_4_room_temp",
     mqttUniqueId: "sensor_circuit4_room_temp",
-    tid: "ob4_pok_tact",
+    tid: "ob4_t1",
     unit: "°C",
     type: "temp",
   },
-  {
-    name: "circuit_4_room_setpoint",
-    mqttUniqueId: "sensor_circuit4_room_setpoint",
-    tid: "ob4_pok_tzad",
-    unit: "°C",
-    type: "temp",
-  },
+
   {
     name: "circuit_4_valve_setpoint",
     mqttUniqueId: "sensor_circuit4_valve_setpoint",
@@ -260,16 +236,6 @@ export const temperatureControlMappings: TemperatureControlMapping[] = [
     minValue: 10,
     maxValue: 70,
   },
-  {
-    name: "circuit_1_room_setpoint",
-    mqttUniqueId: "control_circuit_1_room_setpoint",
-    setId: "ob1_pok_tzad",
-    readoutId: "ob1_pok_tact",
-    currentSetValueId: "ob1_pok_tzad",
-    unit: "°C",
-    minValue: 10,
-    maxValue: 70,
-  },
     {
     name: "circuit_3_valve_setpoint",
     mqttUniqueId: "control_circuit_3_valve_setpoint",
@@ -290,24 +256,6 @@ export const temperatureControlMappings: TemperatureControlMapping[] = [
     minValue: 10,
     maxValue: 70,
   },
-  {
-    name: "circuit_3_room_setpoint",
-    mqttUniqueId: "control_circuit_3_room_setpoint",
-    setId: "ob3_pok_tzad",
-    readoutId: "ob3_pok_tact",
-    currentSetValueId: "ob3_pok_tzad",
-    unit: "°C",
-    minValue: 10,
-    maxValue: 70,
-  },
-  {
-    name: "circuit_4_room_setpoint",
-    mqttUniqueId: "control_circuit_4_room_setpoint",
-    setId: "ob4_pok_tzad",
-    readoutId: "ob4_pok_tact",
-    currentSetValueId: "ob4_pok_tzad",
-    unit: "°C",
-    minValue: 10,
-    maxValue: 70,
-  },
+
+
 ];
