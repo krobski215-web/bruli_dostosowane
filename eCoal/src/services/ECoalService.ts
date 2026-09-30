@@ -63,6 +63,7 @@ export class ECoalService {
           "ob4_t1",
           "ob4_zaw4d_tzad",
           "ob4_zaw4d_pos",
+          "ob4_pok_tact",
         ],
         5,
       );
