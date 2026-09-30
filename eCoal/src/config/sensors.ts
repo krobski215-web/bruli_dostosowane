@@ -89,7 +89,7 @@ export const sensorMappings: SensorMapping[] = [
   {
     name: "internal_temp",
     mqttUniqueId: "sensor_internal_temp",
-    tid: "twew_value",
+    tid: "ob4_pok_tact",
     unit: "°C",
     type: "temp",
   },
