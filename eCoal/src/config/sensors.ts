@@ -79,6 +79,13 @@ export const sensorMappings: SensorMapping[] = [
     unit: "°C",
     type: "temp",
   },
+    {
+    name: "dhw_setpoint",
+    mqttUniqueId: "sensor_dhw_setpoint",
+    tid: "cwu_tzad",
+    unit: "°C",
+    type: "temp",
+  },
   {
     name: "feeder_temp",
     mqttUniqueId: "sensor_feeder_temp",
